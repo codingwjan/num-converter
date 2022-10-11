@@ -7,6 +7,7 @@ import lock from './img/lock_shield_fill.png'
 import cloud from './img/cloud_icon.png'
 import screen from './img/rectangle_fill_badge_checkmark 1.png'
 import graphic from './img/undraw_calculator_re_alsc 1.png'
+import Button from '@mui/material/Button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -42,6 +43,7 @@ root.render(
             <h4 className='design_focused_p'>Use Easy and Interactive Elements to Convert Numbers</h4>
           </div>
         </div>
+        
       </div>
 
 
