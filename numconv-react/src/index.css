@@ -21,7 +21,6 @@ code {
 .maindiv {
   margin-left: 13%;
   margin-top: 8%;
-  height: 100vh;
   justify-content: center;
 }
 
@@ -153,3 +152,14 @@ code {
       width: 70%;
     }
  }
+
+ @media screen and (min-width:2600px) {
+  .calc_graphic {
+   scale: 90%;
+   margin-top: -3%;
+  }
+
+  .maindiv {
+    margin-top: 5%;
+  }
+}
