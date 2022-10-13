@@ -18,7 +18,7 @@ code {
   background-color: #181818;
   font-family: 'Quicksand', sans-serif;
 }
-.maindiv {
+.content {
   margin-left: 13%;
   margin-top: 8%;
   justify-content: center;
@@ -182,3 +182,4 @@ code {
     margin-left: 10%;
    }
 }
+

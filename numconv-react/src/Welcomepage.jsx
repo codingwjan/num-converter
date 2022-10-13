@@ -1,14 +1,14 @@
-import React from "react";
-import { ReactDOM } from "react";
+import * as React from 'react';
 import lock from "./img/lock_shield_fill.png"
 import cloud from "./img/cloud_icon.png"
 import screen from "./img/rectangle_fill_badge_checkmark 1.png"
 import graphic from './img/undraw_calculator_re_alsc 1.png'
+import './Welcomepage.css';
 
-const Welcome_screen = () => {
+const Welcomepage = () => {
     return (
         <>
-        <div className="maindiv" width="100%">
+        <div className="content" width="100%">
             <div className='welcome_message'>
                 <h1 className='welcome_title'>Welcome to </h1>
                 <h1 className='welcome_name'>Converter</h1>
@@ -42,9 +42,11 @@ const Welcome_screen = () => {
                 </div>
             </div>
         </div>
-        
+
         </>
     );
+
+    
 }
 
-export default Welcome_screen;
+export default Welcomepage;

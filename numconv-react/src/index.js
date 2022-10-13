@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Welcome_screen from './welcome_screen';
+import Welcomepage from './Welcomepage';
 import reportWebVitals from './reportWebVitals';
+import Button from '@mui/material/Button';
+import App from './App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Welcome_screen />
+    <Welcomepage />
+    <App />
   </React.StrictMode>
 );
 
