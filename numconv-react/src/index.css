@@ -163,3 +163,22 @@ code {
     margin-top: 5%;
   }
 }
+
+@media screen and (max-width:1800px) {
+  
+
+  .maindiv {
+    margin-left: 5%;
+    margin-top: 3%;
+    scale: 90%;
+  }
+
+  .calc_graphic {
+    scale: 120%;
+    margin-top: 3%;
+   }
+
+   .calc {
+    margin-left: 10%;
+   }
+}
