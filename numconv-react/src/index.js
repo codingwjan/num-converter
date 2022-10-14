@@ -2,14 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Welcomepage from './Welcomepage';
 import reportWebVitals from './reportWebVitals';
-import Button from '@mui/material/Button';
 import App from './App';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+
+const themeDark = createTheme({
+  palette: {
+    background: {
+      default: "#ffffff"
+    },
+  }
+});
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ThemeProvider theme={themeDark}>
+      <CssBaseline />
+    </ThemeProvider>
     <Welcomepage />
+    
     <App />
   </React.StrictMode>
 );
