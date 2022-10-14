@@ -4,7 +4,6 @@ import './WelcomePage.css';
 import { blue } from '@mui/material/colors';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-
 const theme = createTheme({
   palette: {
     primary: {
@@ -20,7 +19,11 @@ function ContinueButton() {
     <React.StrictMode>
         <ThemeProvider theme={theme}>
         <div className='cont_button'>
-            <Button variant='contained' size="large">Continue</Button>;
+            <Button variant='contained' size="large" style={{
+            fontSize: '25px',
+          }}
+          onClick={event =>  window.location.href='MainPage.js'}
+          >Continue</Button>;
         </div>
     </ThemeProvider>
     </React.StrictMode>
