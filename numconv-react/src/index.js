@@ -9,7 +9,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 const themeDark = createTheme({
   palette: {
     background: {
-      default: "#ffffff"
+      default: "#181818"
     },
   }
 });
