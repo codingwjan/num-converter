@@ -3,9 +3,10 @@ import lock from "./img/lock_shield_fill.png"
 import cloud from "./img/cloud_icon.png"
 import screen from "./img/rectangle_fill_badge_checkmark 1.png"
 import graphic from './img/undraw_calculator_re_alsc 1.png'
-import './Welcomepage.css';
+import './WelcomePage.css';
 
-const Welcomepage = () => {
+
+const WelcomePage = () => {
     return (
         <>
         <div className="content" width="100%">
@@ -42,11 +43,8 @@ const Welcomepage = () => {
                 </div>
             </div>
         </div>
-
         </>
     );
-
-    
 }
 
-export default Welcomepage;
+export default WelcomePage;
